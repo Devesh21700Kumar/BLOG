@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+.App{
+  font-family : 'Pacifico' !important;
+ 
+}
+
+.gradient{
+  background-color: rgba(0,0,0,0.5) !important;
+  /* background : url('./img/landing.jpg') !important; */
+}
+
+.crete{
+  font-family: 'Crete Round', serif !important;
+}
+
+.pacifico{
+  font-family : 'Pacifico', cursive !important;
+}
+
+.permanent{
+  font-family : 'Permanent Marker', cursive !important;
+
+}
+
+.shadows{
+  font-family : 'Shadows Into Light', cursive !important;
+}
+
+.landing{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background : url('./img/landing.jpg') !important;
+  background-size: cover;
+}

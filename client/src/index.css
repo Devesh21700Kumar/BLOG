@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: 'Permanent Marker';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root{
+  --gradient-color : linear-gradient(to right bottom, rgba(255,119,48, 0.8) rgba(255, 185,0,0.8))
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+   
+  monospace;
+}
+.light{
+  color : white;
+  background-color: white;
+}
+.middle{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.middle-row{
+  display:flex !important;
+  flex-direction:row !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+}
+.black{
+  color:black !important;
+}
+.landing{
+  background: url("img/landing4.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+.App{
+  font-family : 'Pacifico' !important;
+ 
+}
+
+.gradient{
+  background-color: rgba(0,0,0,0.6) !important;
+  color:white ;
+}
+
+.crete{
+  font-family: 'Crete Round', serif !important;
+}
+
+.pacifico{
+  font-family : 'Pacifico', cursive !important;
+}
+
+.permanent{
+  font-family : 'Permanent Marker', cursive !important;
+
+}
+
+.shadows{
+  font-family : 'Shadows Into Light', cursive !important;
+}
+
+.back-to-top{
+  position:fixed;
+  bottom : 1.4rem;
+  right:1.4rem;
+  display:none;
+}
+
+
+.white{
+  color:white;
+}
+
+a{
+  text-decoration : none;
+  color : inherit;
+}
+.gradient-white{
+  background : linear-gradient(to  right, #de6262, #ffb88c );
+}
+.cards img{
+  width:30vw;
+  margin-left : 0.2rem;
+  border-radius:5%;
+  margin-right : 0.4rem;
+}
+
+.gradient-diff{
+  background : linear-gradient(to right, #eacda3, #d6ae7b);
+}
+
+/* .main{
+  display : flex;
+  align-items : center;
+  justify-content : center;
+} */
+
+.cards{
+  display:flex;
+  border-radius : 0.2rem;
+  padding:2rem 0.4rem;;
+  flex-direction:column;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+  margin : 1rem;
+  width : 65vw;
+  box-shadow : 2px .8rem 1rem rgba(255,255,255,1)
+}
+.row{
+  flex-direction: row !important;
+}
+
+.image-data{
+  height : 18rem;
+  position : relative;
+  z-index : 1;
+}
+.pad{
+  padding-right : 2rem;
+}
+.comments{
+  overflow-x: hidden;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  transition : transform 0.5s ease;
+}
+
+
+.image-data{
+  width : 100%;
+  height : 100%;
+  background : var(--gradient-color) !important;
+
+}
+
+.whitebg{
+  background:white !important;
+}
+
+.button{
+  border: none;
+background: #fafafa;
+color: #000 !important;
+font-weight: 100;
+padding: 0.5rem 1.2rem;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+.button:hover{
+  color: #404040 !important;
+  background:#de6262 !important;
+  transform: scale(1.1) ;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+
+
+@media screen and (min-width:600px){
+  .cards {
+    flex-direction : row;
+    max-width : 75rem;
+  }
+}
